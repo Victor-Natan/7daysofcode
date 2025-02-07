@@ -21,8 +21,6 @@ body{
     background-color: var(--cor-de-fundo);
     font-family: var(--fonte-principal);
     font-weight: 500;
-    width: 100vh;
-    height: 100vh;
 }
 
 .navbar{
@@ -106,4 +104,44 @@ body{
     color: var(--cor-texto-secundaria);
     font-weight: 400;
     font-size: 20px;
+}
+
+.resultados{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    gap: 40px;
+    padding: 5% 10%;
+}
+
+.resultados__metrica{
+    display: flex;
+    flex-direction: column;
+    text-align: initial;
+    gap: 20px;
+}
+
+.resultados__metrica__numero{
+    color: var(--cor-botao);
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.resultados__metrica__area{
+    color: var(--cor-texto-principal);
+    font-size: 18px;
+}
+
+.resultados__metrica__descricao{
+    color: var(--cor-texto-secundaria);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+@media (max-width: 1054px) {
+    .navbar{
+        padding: 2% 5%;
+    }
 }
