@@ -139,6 +139,42 @@ body{
     font-size: 16px;
 }
 
+.equipe{
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    padding: 5% 10%;
+}
+
+.equipe__descricao{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    text-align: center;
+}
+
+.equipe__descricao__anuncio{
+    font-size: 14px;
+    color: var(--cor-botao);
+    text-align: center;
+    background-color: #8e24246b;
+    border-radius: 16px;
+    width: 8%;
+    margin: auto;
+}
+
+.equipe__descricao__procura{
+    font-weight: 600;
+    font-size: 36px;
+    color: var(--cor-texto-principal);
+}
+
+.equipe__descricao__descricao{
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--cor-texto-secundaria);
+}
+
 
 @media (max-width: 1054px) {
     .navbar{
