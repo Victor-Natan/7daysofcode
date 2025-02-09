@@ -8,10 +8,10 @@
 :root{
     --cor-de-fundo: #FFFFFF;
     --cor-da-borda: #EAECF0;
-    --cor-de-fundo-final: #c3191931;
+    --cor-de-fundo-final: #c319190a;
     --cor-de-fundo-rodape: #F9FAFB;
     --cor-botao: #8E2424;
-    --cor-ver-mais: #8e242464;
+    --cor-ver-mais: #8e242416;
     --fonte-principal: "Inter", sans-serif;
     --cor-texto-principal: #101828;
     --cor-texto-secundaria: #667085;
@@ -157,10 +157,11 @@ body{
     font-size: 14px;
     color: var(--cor-botao);
     text-align: center;
-    background-color: #8e24246b;
+    background-color: var(--cor-ver-mais);
     border-radius: 16px;
     width: 8%;
     margin: auto;
+    padding: 5px;
 }
 
 .equipe__descricao__procura{
@@ -175,6 +176,107 @@ body{
     color: var(--cor-texto-secundaria);
 }
 
+.vagas{
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    text-align: initial;
+    align-items: center;
+}
+
+.vagas__titulo{
+    width: 42%;
+    color: var(--cor-texto-principal);
+    font-size: 20px;
+}
+
+.vagas__tipos{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    text-align: initial;
+    align-items: center;
+}
+
+
+.vagas__tipos__vaga{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    border: 1px solid var(--cor-da-borda);
+    border-radius: 16px;
+    width: 275%;
+    padding: 10%;
+}
+
+.vagas__tipos__vaga__titulo{
+    color: var(--cor-texto-principal);
+    font-size: 18px;
+}
+
+.vagas__tipos__vaga__descricao{
+    display: flex;
+    gap: 20px;
+}
+
+.vagas__tipos__vaga__descricao__texto{
+    font-size: 16px;
+    color: var(--cor-texto-secundaria);
+}
+
+.colaboradores{
+    background-color: var(--cor-de-fundo-final);
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 3%;
+    margin: 5% 10%;
+    text-align: center;
+    border-radius: 16px;
+}
+
+.colaboradores__relato{
+    display: flex;
+    flex-direction: column;
+    gap: 27.5px;
+}
+
+.colaboradores__relato__titulo{
+    color: var(--cor-botao);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.colaboradores__relato__texto{
+    color: var(--cor-texto-principal);
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.colaboradores__perfil{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.colaboradores__perfil__foto{
+    width: 56px;
+    height: 56px;
+    margin: auto;
+    padding-bottom: 12px;
+}
+
+.colaboradores__perfil__nome{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cor-texto-principal);
+}
+
+.colaboradores__perfil__profissao{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cor-texto-secundaria);
+}
 
 @media (max-width: 1054px) {
     .navbar{
