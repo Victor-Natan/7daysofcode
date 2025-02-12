@@ -897,6 +897,20 @@ body{
     .navbar__empresa__nome{
         display: none;
     }
+
+    .equipe__descricao__anuncio{
+        font-size: 14px;
+        width: 30%;
+    }
+
+    .equipe__descricao__procura{
+        font-size: 18px;
+    }
+
+    .equipe__descricao__descricao{
+        font-size: 14px;
+    }
+
 }
 
 
