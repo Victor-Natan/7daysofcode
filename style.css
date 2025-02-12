@@ -949,7 +949,6 @@ body{
 
     .resultados{
         display: flex;
-        flex-direction: column;
     }
 
     .design_mobile{
