@@ -893,6 +893,10 @@ body{
     .resultados__metrica{
         gap: 5px;
     }
+
+    .navbar__empresa__nome{
+        display: none;
+    }
 }
 
 
