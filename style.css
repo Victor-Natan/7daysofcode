@@ -1042,8 +1042,12 @@ body{
         display: none;
     }
 
+    .navbar__invisivel{
+        display: none;
+    }
+
     .resultados{
-        padding: 10px 0px 0 0px;
+        padding: 10px 20px 0 0px;
 
     }
 
