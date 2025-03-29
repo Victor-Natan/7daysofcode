@@ -1033,7 +1033,7 @@ body{
 @media(max-width: 390px){
 
     .navbar{
-        padding: 10px 0 0 35px;
+        padding: 10px 0 0 0px;
         gap: 10px;
 
     }
@@ -1043,7 +1043,7 @@ body{
     }
 
     .resultados{
-        padding: 10px 30px 0 35px;
+        padding: 10px 0px 0 0px;
 
     }
 
@@ -1054,7 +1054,7 @@ body{
 
     .equipe__descricao__descricao{
         width: 80%;
-        margin: 0;
+        margin: auto;
     }
 
     .rodape__formulario{
