@@ -1033,9 +1033,9 @@ body{
 @media(max-width: 390px){
 
     .navbar{
-        padding: 10px 0 0 5px;
+        padding: 10px 0 0 50px;
         gap: 10px;
-        text-align: center;
+
     }
 
     .navbar__empresa__logo{
@@ -1043,8 +1043,8 @@ body{
     }
 
     .resultados{
-        padding: 10px 30px 0 0px;
-        text-align: center;
+        padding: 10px 30px 0 50px;
+
     }
 
     .equipe__descricao__procura{
